@@ -1,8 +1,15 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomeView from '../components/views/HomeView'
+
 
 const Router = () => {
   return (
-    <div>Router</div>
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<HomeView/>}></Route>
+    </Routes>
+   </BrowserRouter>
   )
 }
 
