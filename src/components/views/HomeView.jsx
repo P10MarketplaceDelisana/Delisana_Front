@@ -1,12 +1,16 @@
 import React from 'react'
+import Navbar from '../molecules/Navbar'
 import Footer from '../molecules/Footer'
 
 const HomeView = () => {
-  return(
-  <> 
+  return (
+    <>
+    
+    <Navbar />
     <div>HomeView</div>
     <Footer />
  </>
+    
  ) 
 }
 
