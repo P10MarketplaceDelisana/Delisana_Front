@@ -6,7 +6,7 @@ const AboutUs = () => {
       <img
         src="\src\assets\images\cookies_bg.jpg"
         alt="section1_bacground_img"
-        className="_img"
+        className="section1_img hover:shadow-lg"
       />
       <h2 className="section-title  text-3xl font-bold mb-2">Sobre nosotros</h2>
       <p className="section1-description">
