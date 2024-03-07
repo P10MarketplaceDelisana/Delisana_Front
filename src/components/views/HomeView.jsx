@@ -1,13 +1,12 @@
 import React from 'react'
-
-import AboutUs from '../molecules/AboutUs'
+import Navbar from '../molecules/Navbar'
 
 const HomeView = () => {
   return (
     <>
-
-    <AboutUs />
-  
+    
+    <Navbar />
+    <div>HomeView</div>
     </>
   )
 }
