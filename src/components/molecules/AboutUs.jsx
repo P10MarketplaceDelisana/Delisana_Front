@@ -5,11 +5,11 @@ const AboutUs = () => {
     <div className="about-us-container">
       <img
         src="\src\assets\images\cookies_bg.jpg"
-        alt="home_bacground_img"
+        alt="section1_bacground_img"
         className="_img"
       />
       <h2 className="section-title  text-3xl font-bold mb-2">Sobre nosotros</h2>
-      <p className="section-description">
+      <p className="section1-description">
         En Delisana, nacimos con la visión de transformar la experiencia de la
         repostería, y desde nuestro inicio en 2024, nos hemos dedicado a crear
         delicias que conquistan paladares y cuidan de tu bienestar..<br></br>
