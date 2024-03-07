@@ -1,8 +1,14 @@
 import React from 'react'
 
+import AboutUs from '../molecules/AboutUs'
+
 const HomeView = () => {
   return (
-    <div>HomeView</div>
+    <>
+
+    <AboutUs />
+  
+    </>
   )
 }
 
