@@ -4,6 +4,7 @@ import Navbar from '../molecules/Navbar'
 const HomeView = () => {
   return (
     <>
+    
     <Navbar />
     <div>HomeView</div>
     </>
