@@ -36,7 +36,7 @@ const AboutUs = () => {
         necesidades. Sumérgete en nuestro universo de sabores saludables y
         disfruta de la magia de Delisana.<br></br>
       </p>
-      <button className="button_view_products bg-red-600 text-white px-4 py-2 mt-4">
+      <button className="button_view_products bg-granate active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-white px-4 py-2 mt-4">
         Ver Productos
       </button>
     </div>
