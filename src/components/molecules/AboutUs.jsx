@@ -5,10 +5,12 @@ const AboutUs = () => {
     <div className="about-us-container">
       <img
         src="\src\assets\images\cookies_bg.jpg"
-        alt="section1_bacground_img"
+        alt="sección1_cookies_img"
         className="section1_img hover:shadow-lg"
       />
-      <h2 className="section-title  text-3xl font-bold mb-2">Sobre nosotros</h2>
+      <div className="flex justify-center h-screen">
+      <div className="flex flex-col justify-center items-center">
+      <h2 className="section-title  text-3xl font-bold">Conócenos</h2>
       <p className="section1-description">
         En Delisana, nacimos con la visión de transformar la experiencia de la
         repostería, y desde nuestro inicio en 2024, nos hemos dedicado a crear
@@ -36,9 +38,11 @@ const AboutUs = () => {
         necesidades. Sumérgete en nuestro universo de sabores saludables y
         disfruta de la magia de Delisana.<br></br>
       </p>
-      <button className="button_view_products bg-granate active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-white px-4 py-2 mt-4">
+      <button className="button_view_products button_view_products bg-granate active:bg-granate-dark hover:bg-granate-light focus:outline-none focus:ring focus:ring-granate text-white px-4 py-2 mt-4 rounded-md transition duration-300 ease-in-out">
         Ver Productos
       </button>
+      </div>
+    </div>
     </div>
   );
 };

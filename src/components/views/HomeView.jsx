@@ -1,19 +1,16 @@
-import React from 'react'
-import Navbar from '../molecules/Navbar'
-import Footer from '../molecules/Footer'
-import AboutUs from '../molecules/AboutUs'
-
+import React from "react";
+import Navbar from "../molecules/Navbar";
+import AboutUs from "../molecules/AboutUs";
+import Footer from "../molecules/Footer";
 
 const HomeView = () => {
   return (
     <>
-     <Navbar />
-     <AboutUs />
-  
-    <Footer />
- </>
-    
- ) 
-}
+      <Navbar />
+      <AboutUs />
+      <Footer />
+    </>
+  );
+};
 
-export default HomeView
+export default HomeView;
