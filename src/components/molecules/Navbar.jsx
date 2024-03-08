@@ -1,8 +1,20 @@
 import React from 'react'
-import  { useState } from 'react';
+import  { useState, useEffect } from 'react';
+import useFetch from '../../configuration/service/UseFetch';
+import { API_URL } from '../../configuration/config';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [categories, setCategories] = useState([]); // Estado para almacenar las categorías obtenidas de la API
+
+  const { data, loading, error } = useFetch(`${API_URL}/categories`); // Utiliza tu hook useFetch para obtener los datos de la API
+
+  useEffect(() => {
+    // Verifica si los datos se han cargado y establece las categorías en el estado
+    if (data) {
+      setCategories(data);
+    }
+  }, [data]);
 
   // Función para cambiar el estado de visibilidad del dropdown
   const toggleDropdown = () => {
@@ -71,9 +83,11 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <div className="absolute mt-2 w-40 bg-orange-100 rounded shadow-lg">
                   <ul className="py-2">
-                    <li><a href="#" className="block px-4 py-2 text-brown-letter hover:text-granate">Categoría 1</a></li>
-                    <li><a href="#" className="block px-4 py-2 text-brown-letter hover:text-granate">Categoría 2</a></li>
-                    <li><a href="#" className="block px-4 py-2 text-brown-letter hover:text-granate">Categoría 3</a></li>
+                  {categories.map(category => (
+                    <li  key={category.id}>
+                    <a href="#" className="block px-4 py-2 text-brown-letter hover:text-granate">{category.category}</a>
+                    </li>
+                    ))}
                   </ul>
                 </div>
               )}
