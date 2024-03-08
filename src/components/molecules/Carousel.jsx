@@ -7,23 +7,23 @@ const Carousel = () => {
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         {/* Item 1 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="src/assets/images/cinammon_rolls.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Cinnamon Rolls" />
+          <img src="https://picsum.photos/300/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Cinnamon Rolls" />
         </div>
         {/* Item 2 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="src/assets/images/cookies_3choc.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Chocolate Cookies" />
+          <img src="https://picsum.photos/300/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Chocolate Cookies" />
         </div>
         {/* Item 3 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="src/assets/images/cookies_3choc.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="More Chocolate Cookies" />
+          <img src="https://picsum.photos/300/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="More Chocolate Cookies" />
         </div>
         {/* Item 4 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="src/assets/images/bakery_tools.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Bakery Tools" />
+          <img src="https://picsum.photos/300/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Bakery Tools" />
         </div>
         {/* Item 5 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="src/assets/images/triple-chocolate-brownies.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Triple Chocolate Brownies" />
+          <img src="https://picsum.photos/300/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Triple Chocolate Brownies" />
         </div>
       </div>
       {/* Slider indicators */}
