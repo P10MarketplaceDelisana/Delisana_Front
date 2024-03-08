@@ -12,6 +12,8 @@ export default {
         'beige-bg': '#f3ece3',
         'granate': '#AC0231',
         'blue-sky': '#88CAD6',
+        'granate-dark': '#660000',
+        'granate-light': '#AA0000',
       }
     },
   },
