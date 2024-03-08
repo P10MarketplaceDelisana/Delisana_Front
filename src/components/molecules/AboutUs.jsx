@@ -1,13 +1,17 @@
 import React from "react";
+import Carousel from '../molecules/Carousel'
 
 const AboutUs = () => {
   return (
+    <div>
+<Carousel />
+   
     <div className="about-us-container text-brown-letter">
-      <img
+      {/* <img
         src="\src\assets\images\cookies_bg.jpg"
         alt="sección1_cookies_img"
         className="section1_img hover:shadow-lg"
-      />
+      /> */}
       <div className="flex justify-center">
       <div className="max-w-4xl px-4 py-8 text-center">
       <h2 className="section-title  text-3xl font-bold mb-2">Conócenos</h2>
@@ -42,6 +46,7 @@ const AboutUs = () => {
         Ver Productos
       </button>
       </div>
+    </div>
     </div>
     </div>
   );
