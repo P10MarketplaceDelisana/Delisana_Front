@@ -10,7 +10,6 @@ const ProductCard = ({ id, imageValue, nameValue, descriptionValue }) => {
       <div className="card-body">
         <h2 className="productName font-black text-brown-letter">{nameValue}</h2>
         <p className="text-brown-letter">{descriptionValue}</p>
-         <p>{id}</p>
         <div className="card-actions justify-end">
         <Link to={`/products/${id}`}>
             <button className="border-none btn bg-granate hover:bg-red-900 text-white font-bold">
