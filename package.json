@@ -17,7 +17,7 @@
     "react": "^18.2.0",
     "react-devtools": "^4.27.2",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
@@ -31,6 +31,10 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.1.4"
-  }
+    "vite": "^5.1.5"
+  },
+  "description": "Welcome to Delisana, your healthy baking web store. Whether you have an intolerance such as gluten or lactose, if you want sugar-free products or just want to indulge yourself without feeling guilty, we have everything you need, with native and top quality ingredients.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }
