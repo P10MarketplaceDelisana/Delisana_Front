@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="aboutUs">
    
     <div className="about-us-container text-brown-letter">
       {/* <img
@@ -40,9 +41,11 @@ const AboutUs = () => {
         necesidades. Sumérgete en nuestro universo de sabores saludables y
         disfruta de la magia de Delisana.<br></br>
       </p>
-      <button className="button_view_products button_view_products bg-granate active:bg-granate-dark hover:bg-granate-light focus:outline-none focus:ring focus:ring-granate text-white px-4 py-2 mt-4 rounded-md transition duration-300 ease-in-out">
-        Ver Productos
-      </button>
+      <Link to="/nuestrosproductos">
+        <button className="button_view_products bg-granate active:bg-granate-dark hover:bg-granate-light focus:outline-none focus:ring focus:ring-granate text-white px-4 py-2 mt-4 rounded-md transition duration-300 ease-in-out">
+          Ver Productos
+        </button>
+      </Link>
       </div>
     </div>
     </div>
