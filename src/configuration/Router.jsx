@@ -1,20 +1,20 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomeView from '../components/views/HomeView'
-import AddFormView from '../components/views/AddFormView'
-import ProductDetail from '../components/views/ProductDetail'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomeView from '../components/views/HomeView';
+import AddFormView from '../components/views/AddFormView';
+import ProductDetail from '../components/views/ProductDetail';
 
 
-const Router = () => {
+const RouterComponent = () => {
   return (
-    <BrowserRouter>
+    <Router>
     <Routes>
     <Route path='/' element={<HomeView/>}></Route>
-    <Route path='/details' element={<ProductDetail/>}></Route>
+    <Route path="/products/:id" element={<ProductDetail />} />
     <Route path='/form' element={<AddFormView/>}></Route>
     </Routes>
-   </BrowserRouter>
-  )
+   </Router>
+  );
 }
 
-export default Router
+export default RouterComponent;

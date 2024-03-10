@@ -1,29 +1,35 @@
 import React from 'react';
-import ProductCard from '../atoms/ProductCard';
 import UseFetch from '../../configuration/service/UseFetch';
+import { useParams } from 'react-router-dom';
 
 const ProductDetail = () => {
-    const url = 'http://127.0.0.1:8000/api/products/';
-    const { data } = UseFetch(url);
+  const { productId } = useParams();
+  const url = `http://127.0.0.1:8000/api/products/${productId}`;
+  const { data, isLoading, error } = UseFetch(url);
 
-    if (!data || !data.data) {
-        return <>Loading</>;
-    }
+  if (isLoading) {
+    return <>Loading...</>;
+  }
 
-    const products = data.data;
+  if (error || !data || !data[0]) {
+    return <>Error loading product details</>;
+  }
 
-    return (
-        <div>
-            {products.map((element) => (
-                <ProductCard
-                    key={element.id}
-                    imageValue={element.image_url}
-                    nameValue={element.name}
-                    descriptionValue={element.description}
-                />
-            ))}
-        </div>
-    );
+  const product = data[0];
+
+  return (
+    <div>
+      <h2>{product.name}</h2>
+      <img src={product.image_url} alt={product.name} />
+      <p>{product.description}</p>
+      {/* Agrega el resto de la presentación de detalles del producto */}
+    </div>
+  );
 };
 
 export default ProductDetail;
+
+
+
+
+
