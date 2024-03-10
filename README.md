@@ -21,12 +21,12 @@ This repository is part of an exciting group project developed during the Femcod
 
 ## Final Result
 
-![Delisana Home Page](img)
+![Delisana Home Page](https://media.discordapp.net/attachments/1211670617225695335/1216484218083999815/image.png?ex=66008e36&is=65ee1936&hm=3bd9c4a644d36acaa6af09f1058bf6e20b0ec36653bb2881d9ea139a7c4f72e2&=&format=webp&quality=lossless&width=663&height=602)
 <br><br><br>
 
 ## Frontend Stack
 
-This repository serves as the **frontend stack** for Delisana's exciting project. It is intricately linked with our **backend repository** (https://github.com/P10MarketplaceDelisana/Delisana_Back), which resides within the P10MarketplaceDelisana organization.<br><br>
+This repository serves as the **frontend stack** for Delisana's exciting project. It is intricately linked with our [backend repository](https://github.com/P10MarketplaceDelisana/Delisana_Back), which resides within the P10MarketplaceDelisana organization.<br><br>
 Our decision to maintain separate repositories for **frontend** and **backend** offers several key benefits:
 
 1. **Clarity and Separation**: Clear boundaries between project components allow focused work.<br>
