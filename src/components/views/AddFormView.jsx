@@ -1,6 +1,7 @@
 import React from 'react'
 import AddForm from '../molecules/AddForm'
 import  Navbar  from '../molecules/Navbar'
+import Footer from '../molecules/Footer'
 
 const AddFormView = () => {
   return (
@@ -12,10 +13,13 @@ const AddFormView = () => {
     <div className='py-10 flex aligne-center text-2xl font-medium text-brown-letter'>
       <h1>Carga tus productos a la tienda</h1>
     </div>
-      <div>
+      <div className='pb-20'>
         <AddForm />
       </div>
     </div>
+    <div>
+        <Footer />
+      </div>
     
     </>
 
