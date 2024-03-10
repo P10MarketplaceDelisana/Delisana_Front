@@ -5,6 +5,7 @@ import Footer from "../molecules/Footer";
 import ProductCard from '../atoms/ProductCard';
 import Carousel from "../molecules/Carousel";
 import UseFetch from '../../configuration/service/UseFetch';
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,6 +29,7 @@ const HomeView = () => {
         <Carousel />
       </div>
       
+      
       <div className="ml-24">
         <div>
           <h2 className="text-brown-letter font-bold text-3xl">Nuestros productos</h2>
@@ -36,6 +38,7 @@ const HomeView = () => {
     {products.map((element) => (
       <div key={element.id} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 p-2">
         <ProductCard
+          id={element.id}
           imageValue={element.image_url}
           nameValue={element.name}
           descriptionValue={element.description}
@@ -44,7 +47,7 @@ const HomeView = () => {
     ))}
   </div>
   <div className="mb-8 flex place-items-end">
-    <a className="text-brown-letter font-bold text-xl" href="">Ver más...</a>
+  <Link to="/nuestrosproductos" className="text-brown-letter font-bold text-xl">Ver más...</Link>
   </div>
 </div>
       <AboutUs />
