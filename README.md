@@ -5,9 +5,10 @@ Welcome to Delisana, your healthy baking web store. Whether you have an intolera
 ## Table of Contents
 
 - Project Overview
+- Final Result
+- Frontend Stack
 - Technologies
-- Installation
-- API Routes
+- Installation Steps
 - Branches
 - Contributing
 - License
@@ -22,6 +23,17 @@ This repository is part of an exciting group project developed during the Femcod
 
 ![Delisana Home Page](img)
 <br><br><br>
+
+## Frontend Stack
+
+This repository serves as the **frontend stack** for Delisana's exciting project. It is intricately linked with our **backend repository** (https://github.com/P10MarketplaceDelisana/Delisana_Back), which resides within the P10MarketplaceDelisana organization.<br><br>
+Our decision to maintain separate repositories for **frontend** and **backend** offers several key benefits:
+
+1. **Clarity and Separation**: Clear boundaries between project components allow focused work.<br>
+2. **Independent Version Control**: Separate versioning and deployment streamline updates.<br>
+3. **Reduced Conflicts**: Fewer merge conflicts since teams don't modify the same files.<br>
+4. **Security and Access Control**: Role-based access ensures appropriate permissions.<br>
+5. **CI/CD Simplicity**: Customized CI/CD flows for each repository.<br><br>
 
 ## ⚙️ Technologies
 
