@@ -95,4 +95,4 @@ Created by:
 - [Claudia González](https://github.com/claudiaglez)
 - [Johana Sadoval](https://github.com/Sandovaljohana)
 - [Loli Vila](https://github.com/Vila71)
-- [Helena de Rosa](https://github.com/HelenaDR84
+- [Helena de Rosa](https://github.com/HelenaDR84)
