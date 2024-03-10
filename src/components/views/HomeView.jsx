@@ -35,10 +35,10 @@ const HomeView = () => {
           <h2 className="text-brown-letter font-bold text-3xl">Nuestros productos</h2>
         </div>
   <div className="container flex flex-wrap">
-    {products.map((element) => (
+  {products.map((element) => (
       <div key={element.id} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 p-2">
         <ProductCard
-          id={element.id}
+         id={element.id}
           imageValue={element.image_url}
           nameValue={element.name}
           descriptionValue={element.description}
