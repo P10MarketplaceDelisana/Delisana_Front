@@ -1,11 +1,8 @@
 import React from "react";
-import Carousel from '../molecules/Carousel'
 
 const AboutUs = () => {
   return (
     <div>
-    
-    <Carousel />
    
     <div className="about-us-container text-brown-letter">
       {/* <img

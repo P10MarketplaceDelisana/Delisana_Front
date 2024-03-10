@@ -16,7 +16,7 @@ const HomeView = () => {
     return <>Loading</>;
   }
 
-  const products = data.data;
+  const products = data.data.slice(0, 3);
 
   return (
     <>
@@ -29,6 +29,9 @@ const HomeView = () => {
       </div>
       
       <div className="ml-24">
+        <div>
+          <h2 className="text-brown-letter font-bold text-3xl">Nuestros productos</h2>
+        </div>
   <div className="container flex flex-wrap">
     {products.map((element) => (
       <div key={element.id} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 p-2">
@@ -39,6 +42,9 @@ const HomeView = () => {
         />
       </div>
     ))}
+  </div>
+  <div className="mb-8 flex place-items-end">
+    <a className="text-brown-letter font-bold text-xl" href="">Ver más...</a>
   </div>
 </div>
       <AboutUs />
