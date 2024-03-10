@@ -5,7 +5,7 @@ Welcome to Delisana, your healthy baking web store. Whether you have an intolera
 ## Table of Contents
 
 - Project Overview
-  . Technologies
+- Technologies
 - Installation
 - API Routes
 - Branches
@@ -82,5 +82,6 @@ Created by:
 - [María Cao](https://github.com/maicaocaa)
 - [Claudia González](https://github.com/claudiaglez)
 - [Johana Sadoval](https://github.com/Sandovaljohana)
-- [Helena de Rosa](https://github.com/HelenaDR84)
 - [Loli Vila](https://github.com/Vila71)
+- [Helena de Rosa](https://github.com/HelenaDR84)
+
